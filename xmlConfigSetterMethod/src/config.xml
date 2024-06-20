@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="employee1" class="com.Test.Employee">
+	
+	  <property name="employeeId" value="321" />
+	  <property name="employeeName" value="Suraj Kumar" />
+	  <property name="employeeRole" value="QA Analyst" />
+	  <property name="employeeSalary" value="98763.24" />
+	  
+	  </bean>
+	  
+	  <bean id="employee2" class="com.Test.Employee">
+	  
+	  <property name="employeeId" value="879" />
+	  <property name="employeeName" value="Bharat" />
+	  <property name="employeeRole" value="Java Developer" />
+	  <property name="employeeSalary" value="9083414.67" />
+	  
+	  </bean>
+	  
+	  <bean id="employee3" class="com.Test.Employee">
+	  
+	  <property name="employeeId" value="6799" />
+	  <property name="employeeName" value="Samrudhi" />
+	  <property name="employeeRole" value="Data Analyst" />
+	  <property name="employeeSalary" value="87563.87" />
+	  
+	  
+		
+
+	</bean>
+</beans>
