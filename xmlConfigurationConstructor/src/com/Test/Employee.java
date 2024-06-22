@@ -25,7 +25,6 @@ public class Employee
 		return "Employee [employeeId=" + employeeId + ", employeeName=" + employeeName + ", employeeRole="
 				+ employeeRole + ", employeeSalary=" + employeeSalary + "]";
 	}
-	
-	
 
+	
 }
